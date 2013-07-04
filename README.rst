@@ -2,10 +2,13 @@
 Mist.io on OpenShift using Buildout
 ===================================
 
-This repository contains a buildout-based deployment template for mist.io
+This repository contains a buildout-based deployment template for mist.io.
 
-Running on OpenShift
-=====================
+It is based on https://github.com/kagesenshi/pyramid-buildout-openshift-quickstart by Izhar Firdaus.
+
+
+Instructions
+============
 
 Create an account at http://openshift.redhat.com/
 

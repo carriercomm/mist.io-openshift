@@ -28,4 +28,5 @@ Then push the repo to OpenShift (this will take quite a while to finish)::
 
 Thats it, you now can check out your application at::
 
-  http://mistio-$yournamespace.rhcloud.com
+  https://mistio-<yourNamespace>.rhcloud.com
+

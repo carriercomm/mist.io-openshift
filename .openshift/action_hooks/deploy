@@ -54,7 +54,7 @@ host = ${OPENSHIFT_APP_DNS}
 EOF
 
     # bootstrap
-    ${VENV} bootstrap.py -c openshift-buildout.cfg
+    ${VENV} bootstrap.py -v '2.0.0' -c openshift-buildout.cfg
 
     # build!
     ./bin/buildout -vvvv -c openshift-buildout.cfg

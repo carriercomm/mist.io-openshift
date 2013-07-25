@@ -24,7 +24,7 @@ then
 
     if [ ! -d ${OPENSHIFT_DATA_DIR}/eggs/ ]
     then
-        wget http://178.63.149.211/eggs.tgz -O eggs.tgz
+        wget https://mist.io/core/eggs.tgz -O eggs.tgz
         tar xvfz ${OPENSHIFT_REPO_DIR}/eggs.tgz -C ${OPENSHIFT_DATA_DIR}
     fi 
 
